@@ -25,7 +25,7 @@
   },
   "devDependencies": {
      "release-it": "^16.3.0",
-    "formilyccore": "2",
+    "designablecore": "2",
     "@formily/json-schema": "^2.0.2"
   },
   "peerDependencies": {
