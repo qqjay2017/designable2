@@ -3,7 +3,7 @@
     "commitMessage": "chore: release release v${version}",
     "release": false,
     "tag": false,
-    "commit": false,
+    "commit": true,
     "push": true
   },
   "github": {
