@@ -1,0 +1,25 @@
+{
+  "name": "designableshared",
+  "version": "2.0.1",
+  "license": "MIT",
+  "main": "lib",
+  "types": "lib/index.d.ts",
+  "engines": {
+    "npm": ">=3.0.0"
+  },
+  "module": "esm",
+  "scripts": {
+    "release": "release-it"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "requestidlecallback": "^0.3.0"
+  },
+  "devDependencies": {
+    "release-it": "^16.3.0"
+  },
+  "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
+}
