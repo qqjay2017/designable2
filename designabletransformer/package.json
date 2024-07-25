@@ -1,0 +1,40 @@
+{
+  "name": "@designable/formily-transformer",
+  "version": "2.0.0",
+  "license": "MIT",
+  "main": "lib",
+  "engines": {
+    "npm": ">=3.0.0"
+  },
+  "module": "esm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alibaba/designable.git"
+  },
+  "types": "esm/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/alibaba/designable/issues"
+  },
+  "homepage": "https://github.com/alibaba/designable#readme",
+  "scripts": {
+   "release": "release-it"
+  },
+  "publishConfig": {
+    "access": "public",
+     "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+     "release-it": "^16.3.0",
+    "formilyccore": "2",
+    "@formily/json-schema": "^2.0.2"
+  },
+  "peerDependencies": {
+    "formilycore": "^2",
+    "@formily/json-schema": "^2.0.2"
+  },
+  "dependencies": {
+    "designablecore": "2",
+    "designableshared": "2"
+  },
+  "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
+}
