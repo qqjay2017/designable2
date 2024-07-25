@@ -7,6 +7,7 @@
     "push": true
   },
   "github": {
+    "push": false,
     "release": false
   },
   "npm": {
