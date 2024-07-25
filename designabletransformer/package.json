@@ -7,15 +7,10 @@
     "npm": ">=3.0.0"
   },
   "module": "esm",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alibaba/designable.git"
-  },
+ 
   "types": "esm/index.d.ts",
-  "bugs": {
-    "url": "https://github.com/alibaba/designable/issues"
-  },
-  "homepage": "https://github.com/alibaba/designable#readme",
+ 
+
   "scripts": {
     "release": "release-it"
   },
@@ -35,6 +30,5 @@
   "dependencies": {
     "designablecore": "2",
     "designableshared": "2"
-  },
-  "gitHead": "bda070c137ba0003cc4451b2208e089d2e326b23"
+  }
 }
