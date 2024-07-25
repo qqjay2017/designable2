@@ -1,6 +1,6 @@
 {
   "name": "designabletransformer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "main": "lib",
   "engines": {
@@ -17,14 +17,14 @@
   },
   "homepage": "https://github.com/alibaba/designable#readme",
   "scripts": {
-   "release": "release-it"
+    "release": "release-it"
   },
   "publishConfig": {
     "access": "public",
-     "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-     "release-it": "^16.3.0",
+    "release-it": "^16.3.0",
     "designablecore": "2",
     "@formily/json-schema": "^2.0.2"
   },
