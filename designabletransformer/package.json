@@ -1,16 +1,13 @@
 {
   "name": "designabletransformer",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "MIT",
   "main": "lib",
   "engines": {
     "npm": ">=3.0.0"
   },
   "module": "esm",
- 
   "types": "esm/index.d.ts",
- 
-
   "scripts": {
     "release": "release-it"
   },
